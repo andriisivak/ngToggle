@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ngToggle">
+<head>
+    <meta charset="UTF-8">
+    <title>ng-toggle test</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script type="text/javascript" src="angular.min.js"></script>
+    <script type="text/javascript" src="appController.js"></script>
+    <script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body ng-controller="appController">
+
+<div id="page">
+    <div ng-show="toggle"><a ng-click="toggle = !toggle" href="">Show article 2</a></div>
+    <div ng-hide="toggle"><a ng-click="toggle = !toggle" href="">Show article 1</a></div>
+
+    <h2 ng-show="toggle" id="text1">HEADER 1</h2>
+    <h2 ng-hide="toggle" id="text2">HEADER 2</h2>
+
+    <div ng-show="toggle" ng-show="show2" id="box1">
+        <p>Modi distinctio duis temporibus repellat! Delectus, quibusdam mi quae ut eleifend netus molestie, atque! Quos justo, lobortis deleniti! Possimus repellendus habitant eum. Eget vulputate, iusto habitasse aptent.</p>
+        <p>Ultrices veritatis dolore dictum vehicula atque quaerat tortor metus, eleifend fusce incidunt irure? Sollicitudin magni! A, quaerat adipisci, posuere voluptas iaculis platea itaque.</p>
+    </div>
+    <div ng-hide="toggle" ng-hide="show2" id="box2">
+        <p>Convallis vel provident mollit, ea accumsan, consectetur tortor, laoreet inceptos iste consectetuer ridiculus consequat interdum excepteur maxime sem placeat modi. Officia. Eaque quisque numquam nostrum, arcu cumque aliquet tellus ultrices facilis culpa, animi tempora accusamus accumsan!</p>
+        <p>Mollit inventore elit blanditiis nisi venenatis, minim possimus, mus vero commodi iusto ratione tempus.</p>
+    </div>
+</div>
+
+</body>
+</html>
+

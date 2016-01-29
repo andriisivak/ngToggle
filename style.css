@@ -1,0 +1,20 @@
+#page {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#box1 {
+    color: #9477b7;
+    margin: 10px 10px 10px 0;
+}
+
+#box2 {
+    color: #14a09e;
+    margin: 10px 10px 10px 0;
+}
+
+h2 {
+    color: #5b5b5b;
+}
+
